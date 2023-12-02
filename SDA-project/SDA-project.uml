@@ -18,8 +18,11 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_AGPZEJBuEe6MjupPj9Muaw" name="Prompt error">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C4XicJBuEe6MjupPj9Muaw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_YiiagJELEe6B37EJbwjRkw" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_JZX74JBvEe6MjupPj9Muaw" name="Enter credentials"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JZX74JBvEe6MjupPj9Muaw" name="Enter credentials">
+      <include xmi:type="uml:Include" xmi:id="_XxeJ8JELEe6B37EJbwjRkw" addition="_tJrocJBtEe6MjupPj9Muaw"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_Pv7OQJBvEe6MjupPj9Muaw" name="Enter experiences"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_TTNHwJBvEe6MjupPj9Muaw" name="See job listings">
       <extend xmi:type="uml:Extend" xmi:id="_gR26EJBwEe6MjupPj9Muaw" extendedCase="_f4D6AJBwEe6MjupPj9Muaw" extensionLocation="_gR3hIJBwEe6MjupPj9Muaw"/>
