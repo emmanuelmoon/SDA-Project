@@ -1,0 +1,1 @@
+SDA-project folder contains both use case and activity diagram
