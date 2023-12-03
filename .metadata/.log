@@ -739,3 +739,16 @@ Caused by: java.lang.ClassCastException: class org.eclipse.papyrus.uml.diagram.s
 	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
 	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
 	... 41 more
+!SESSION 2023-12-03 20:57:09.750 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-03 20:57:49.906
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
