@@ -126,7 +126,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_enIoMpBxEe6MjupPj9Muaw" name="notify successful application" type="_Q8PlgJBxEe6MjupPj9Muaw" association="_enIBIJBxEe6MjupPj9Muaw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_enJPQJBxEe6MjupPj9Muaw" name="system ( job portal system)" type="_ma1x4JBtEe6MjupPj9Muaw" association="_enIBIJBxEe6MjupPj9Muaw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_ufaNkJEjEe611uwyzMExdw" node="_Ymp8IJEkEe611uwyzMExdw _aYOncJEkEe611uwyzMExdw _wvj10JEkEe611uwyzMExdw _QNzlYJElEe611uwyzMExdw _WCzp4JElEe611uwyzMExdw _NnPcsJEuEe611uwyzMExdw _RnzvIJEuEe611uwyzMExdw _mKpfEJFEEe611uwyzMExdw _zFtnUJFEEe611uwyzMExdw _FbRCUJFFEe611uwyzMExdw _Rg7MkJFFEe611uwyzMExdw _cUQzUJFFEe611uwyzMExdw _q-AD4JFFEe611uwyzMExdw _2SDLAJFFEe611uwyzMExdw _6fy90JFFEe611uwyzMExdw" group="_TYz-QJEkEe611uwyzMExdw _rcO7AJEkEe611uwyzMExdw">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_ufaNkJEjEe611uwyzMExdw" node="_Ymp8IJEkEe611uwyzMExdw _aYOncJEkEe611uwyzMExdw _wvj10JEkEe611uwyzMExdw _QNzlYJElEe611uwyzMExdw _WCzp4JElEe611uwyzMExdw _NnPcsJEuEe611uwyzMExdw _RnzvIJEuEe611uwyzMExdw _mKpfEJFEEe611uwyzMExdw _zFtnUJFEEe611uwyzMExdw _FbRCUJFFEe611uwyzMExdw _Rg7MkJFFEe611uwyzMExdw _cUQzUJFFEe611uwyzMExdw _q-AD4JFFEe611uwyzMExdw _2SDLAJFFEe611uwyzMExdw _6fy90JFFEe611uwyzMExdw _KQVQYJHgEe6UH6VGuvkIVA _xH1sgJHgEe6UH6VGuvkIVA _Gh1v8JHhEe6UH6VGuvkIVA _KpN1AJHhEe6UH6VGuvkIVA _V1NzYJHhEe6UH6VGuvkIVA _Y8H58JHhEe6UH6VGuvkIVA" group="_TYz-QJEkEe611uwyzMExdw _rcO7AJEkEe611uwyzMExdw">
     <edge xmi:type="uml:ControlFlow" xmi:id="_mREdsJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_aYOncJEkEe611uwyzMExdw" source="_Ymp8IJEkEe611uwyzMExdw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_0VSmYJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_wvj10JEkEe611uwyzMExdw" source="_aYOncJEkEe611uwyzMExdw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_Z179QJElEe611uwyzMExdw" target="_WCzp4JElEe611uwyzMExdw" source="_wvj10JEkEe611uwyzMExdw"/>
@@ -158,8 +158,23 @@
       <weight xmi:type="uml:LiteralInteger" xmi:id="_D0_LkZFGEe611uwyzMExdw" value="1"/>
     </edge>
     <edge xmi:type="uml:ControlFlow" xmi:id="_F2ko0JFGEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_2SDLAJFFEe611uwyzMExdw" source="_q-AD4JFFEe611uwyzMExdw"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_TYz-QJEkEe611uwyzMExdw" name="Job Seeker" node="_Ymp8IJEkEe611uwyzMExdw _aYOncJEkEe611uwyzMExdw _wvj10JEkEe611uwyzMExdw _QNzlYJElEe611uwyzMExdw _joYqkJEsEe611uwyzMExdw _NnPcsJEuEe611uwyzMExdw _ss0NkJEuEe611uwyzMExdw _mKpfEJFEEe611uwyzMExdw _4nKdsJFEEe611uwyzMExdw _FbRCUJFFEe611uwyzMExdw _Rg7MkJFFEe611uwyzMExdw _q-AD4JFFEe611uwyzMExdw _tYdUIJFFEe611uwyzMExdw _2SDLAJFFEe611uwyzMExdw _-HPloJFFEe611uwyzMExdw" edge="_mREdsJEkEe611uwyzMExdw _0VSmYJEkEe611uwyzMExdw _QN5V4JEuEe611uwyzMExdw _HnHO0JFFEe611uwyzMExdw _UbrtgJFFEe611uwyzMExdw _F2ko0JFGEe611uwyzMExdw"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_rcO7AJEkEe611uwyzMExdw" name="System" node="_WCzp4JElEe611uwyzMExdw _djKYwJEsEe611uwyzMExdw _RnzvIJEuEe611uwyzMExdw _rzqYAJEuEe611uwyzMExdw _zFtnUJFEEe611uwyzMExdw _7lvHoJFEEe611uwyzMExdw _cUQzUJFFEe611uwyzMExdw _uaVA0JFFEe611uwyzMExdw _6fy90JFFEe611uwyzMExdw _-4yXUJFFEe611uwyzMExdw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_mTpxMJHgEe6UH6VGuvkIVA" target="_dv19EJHgEe6UH6VGuvkIVA" source="_c47jMJHgEe6UH6VGuvkIVA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_mU2rEJHgEe6UH6VGuvkIVA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_mU3SIJHgEe6UH6VGuvkIVA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yg-CoJHgEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_xH1sgJHgEe6UH6VGuvkIVA" source="_KQVQYJHgEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_H8w10JHhEe6UH6VGuvkIVA" target="_Gh1v8JHhEe6UH6VGuvkIVA" source="_xH1sgJHgEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Pv73MJHhEe6UH6VGuvkIVA" target="_L0xCIJHhEe6UH6VGuvkIVA" source="_M41uQJHhEe6UH6VGuvkIVA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_PxD4kJHhEe6UH6VGuvkIVA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_PxD4kZHhEe6UH6VGuvkIVA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YHU_8JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw" target="_V1NzYJHhEe6UH6VGuvkIVA" source="_KpN1AJHhEe6UH6VGuvkIVA"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_fen9oJHhEe6UH6VGuvkIVA" target="_cTp2cJHhEe6UH6VGuvkIVA" source="_bpcb0JHhEe6UH6VGuvkIVA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ffdrIJHhEe6UH6VGuvkIVA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ffdrIZHhEe6UH6VGuvkIVA" value="1"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_TYz-QJEkEe611uwyzMExdw" name="Select a job" node="_Ymp8IJEkEe611uwyzMExdw _aYOncJEkEe611uwyzMExdw _wvj10JEkEe611uwyzMExdw _QNzlYJElEe611uwyzMExdw _joYqkJEsEe611uwyzMExdw _NnPcsJEuEe611uwyzMExdw _ss0NkJEuEe611uwyzMExdw _mKpfEJFEEe611uwyzMExdw _4nKdsJFEEe611uwyzMExdw _FbRCUJFFEe611uwyzMExdw _Rg7MkJFFEe611uwyzMExdw _q-AD4JFFEe611uwyzMExdw _tYdUIJFFEe611uwyzMExdw _2SDLAJFFEe611uwyzMExdw _-HPloJFFEe611uwyzMExdw _KQVQYJHgEe6UH6VGuvkIVA _dv19EJHgEe6UH6VGuvkIVA _xH1sgJHgEe6UH6VGuvkIVA _KpN1AJHhEe6UH6VGuvkIVA _L0xCIJHhEe6UH6VGuvkIVA _V1NzYJHhEe6UH6VGuvkIVA _bpcb0JHhEe6UH6VGuvkIVA" edge="_mREdsJEkEe611uwyzMExdw _0VSmYJEkEe611uwyzMExdw _QN5V4JEuEe611uwyzMExdw _HnHO0JFFEe611uwyzMExdw _UbrtgJFFEe611uwyzMExdw _F2ko0JFGEe611uwyzMExdw _yg-CoJHgEe6UH6VGuvkIVA _YHU_8JHhEe6UH6VGuvkIVA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_rcO7AJEkEe611uwyzMExdw" name="System" node="_WCzp4JElEe611uwyzMExdw _djKYwJEsEe611uwyzMExdw _RnzvIJEuEe611uwyzMExdw _rzqYAJEuEe611uwyzMExdw _zFtnUJFEEe611uwyzMExdw _7lvHoJFEEe611uwyzMExdw _cUQzUJFFEe611uwyzMExdw _uaVA0JFFEe611uwyzMExdw _6fy90JFFEe611uwyzMExdw _-4yXUJFFEe611uwyzMExdw _c47jMJHgEe6UH6VGuvkIVA _Gh1v8JHhEe6UH6VGuvkIVA _M41uQJHhEe6UH6VGuvkIVA _Y8H58JHhEe6UH6VGuvkIVA _cTp2cJHhEe6UH6VGuvkIVA"/>
     <node xmi:type="uml:InitialNode" xmi:id="_Ymp8IJEkEe611uwyzMExdw" name="InitialNode2" outgoing="_mREdsJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_aYOncJEkEe611uwyzMExdw" name="Navigate to site" visibility="public" incoming="_mREdsJEkEe611uwyzMExdw" outgoing="_0VSmYJEkEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_wvj10JEkEe611uwyzMExdw" name="Click on signup" incoming="_0VSmYJEkEe611uwyzMExdw" outgoing="_Z179QJElEe611uwyzMExdw" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
@@ -213,6 +228,35 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="_6fy90JFFEe611uwyzMExdw" name="Returned filtered job listings" inPartition="_rcO7AJEkEe611uwyzMExdw">
       <inputValue xmi:type="uml:InputPin" xmi:id="_-4yXUJFFEe611uwyzMExdw" name="Filterings requirements" incoming="_D0W5cJFGEe611uwyzMExdw" inPartition="_rcO7AJEkEe611uwyzMExdw">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_-4y-YJFFEe611uwyzMExdw" value="1"/>
+      </inputValue>
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_c47jMJHgEe6UH6VGuvkIVA" name="Filtered jobs" outgoing="_mTpxMJHgEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_c5CQ4JHgEe6UH6VGuvkIVA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KQVQYJHgEe6UH6VGuvkIVA" name="Receive selected jobs" outgoing="_yg-CoJHgEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_dv19EJHgEe6UH6VGuvkIVA" name="Filtered jobs" incoming="_mTpxMJHgEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_dv3LMJHgEe6UH6VGuvkIVA" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xH1sgJHgEe6UH6VGuvkIVA" name="Select a job" incoming="_yg-CoJHgEe6UH6VGuvkIVA" outgoing="_H8w10JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Gh1v8JHhEe6UH6VGuvkIVA" name="Send job window" incoming="_H8w10JHhEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_M41uQJHhEe6UH6VGuvkIVA" name="job window" outgoing="_Pv73MJHhEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_M42VUJHhEe6UH6VGuvkIVA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KpN1AJHhEe6UH6VGuvkIVA" name="Read about job" outgoing="_YHU_8JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_L0xCIJHhEe6UH6VGuvkIVA" name="job window" incoming="_Pv73MJHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_L0xpMJHhEe6UH6VGuvkIVA" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_V1NzYJHhEe6UH6VGuvkIVA" name="Apply" incoming="_YHU_8JHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_bpcb0JHhEe6UH6VGuvkIVA" name="Application" outgoing="_fen9oJHhEe6UH6VGuvkIVA" inPartition="_TYz-QJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_bpdC4JHhEe6UH6VGuvkIVA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Y8H58JHhEe6UH6VGuvkIVA" name="Record application" inPartition="_rcO7AJEkEe611uwyzMExdw">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_cTp2cJHhEe6UH6VGuvkIVA" name="Application" incoming="_fen9oJHhEe6UH6VGuvkIVA" inPartition="_rcO7AJEkEe611uwyzMExdw">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_cTrEkJHhEe6UH6VGuvkIVA" value="1"/>
       </inputValue>
     </node>
   </packagedElement>
